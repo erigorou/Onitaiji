@@ -1,0 +1,11 @@
+{
+  "bossIdlingFace": "Oni/Face/IdlingFace.cmo",
+  "bossAttackingFace": "Oni/Face/AttackingFace.cmo",
+  "wall": "Stage/Wall/wall.cmo",
+  "titleOni": "Title/oni.cmo",
+  "player": "Player/Body/player.cmo",
+  "boss": "Oni/Body/oni.cmo",
+  "goblin": "Goblin/goblin.cmo",
+  "sword": "Weapon/Sword/sword.cmo",
+  "cudgel": "Weapon/Cudgel/cudgel.cmo"
+}

@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>953a950d-8f23-49c6-b64f-5e4a032f2f13</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>1c4a63d8-8be7-4206-8e9b-c5c8bc272bb0</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{81e0afe9-ad4e-4f63-95a0-f6d4011481d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{e07fced4-d323-4665-a6ef-0da58b0f46f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{582b0255-bd7f-4fbc-a35d-f8c13d2fbf14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Textures">
+      <UniqueIdentifier>{3c9cae57-ef8e-4d89-9ce8-daa682d325ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Icon">
+      <UniqueIdentifier>{53043c45-2397-49b9-97e7-98faee0b0a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Models">
+      <UniqueIdentifier>{4bb7f6ff-9803-4a2b-a0e8-bacbe656715d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{c309d520-e3d0-40ec-859f-98ab4d9a9fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\MyLib">
+      <UniqueIdentifier>{a327e5ae-7623-4c97-9ac8-1d10ca95e8ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Microsoft">
+      <UniqueIdentifier>{3ad90921-3d35-490e-837c-bc326a24aeed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{644b32a7-7d84-4f61-a3f0-3872a592dcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Camera">
+      <UniqueIdentifier>{d85b5a00-9b75-42a6-8c3e-500d1926681e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{59069d8f-6342-42cc-af97-40bd12d7eb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy">
+      <UniqueIdentifier>{76110301-5e4e-48d6-b8d7-5f926ef53a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{243f97e3-a568-45bc-a743-e2d22edb83cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\States">
+      <UniqueIdentifier>{1339674d-cabd-4de4-b6ed-64f07f0ae300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviourTree">
+      <UniqueIdentifier>{973bd5a2-a7eb-4a26-ba88-39329a8a412c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviorTree">
+      <UniqueIdentifier>{8c37a461-d70e-4aae-81d1-31c1d4ebd3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviorTree\Header">
+      <UniqueIdentifier>{e6443207-2afa-455b-987f-4cc9b7364377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviorTree\Source">
+      <UniqueIdentifier>{ee8b4a00-f6e7-425b-b430-e74895875501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\State">
+      <UniqueIdentifier>{18f602b1-3a60-4dc5-872b-caed41ed98ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\State\Source">
+      <UniqueIdentifier>{b124caf6-95f9-48e7-8767-9e6e32b2d262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\State\Header">
+      <UniqueIdentifier>{676e3e1c-a2f2-45fd-a237-80555766cf27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\CommonResources.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\DebugDraw.h">
+      <Filter>Libraries\Microsoft</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Screen.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\DebugString.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\MyLib\MemoryLeakDetector.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\IScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\PlayScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Scene\SceneManager.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Camera\Camera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Boss\Boss.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IState.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\Header\PlayerDodging.h">
+      <Filter>Game\Player\State\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\State\Header\PlayerIdling.h">
+      <Filter>Game\Player\State\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Stage\SkySphere\SkySphere.h">
+      <Filter>Libraries\MyLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects\Header\DustTrailParticle.h" />
+    <ClInclude Include="Effects\Particle.h" />
+    <ClInclude Include="Libraries\MyLib\BinaryFile.h" />
+    <ClInclude Include="Libraries\MyLib\Math.h" />
+    <ClInclude Include="Game\Player\State\Header\PlayerAttacking1.h" />
+    <ClInclude Include="Game\Boss\States\Header\BossIdling.h" />
+    <ClInclude Include="Game\Boss\States\Header\BossApproaching.h" />
+    <ClInclude Include="Game\Player\State\Header\PlayerAttacking2.h" />
+    <ClInclude Include="Game\Weapon\Sword\Sword.h" />
+    <ClInclude Include="Interface\IWeapon.h" />
+    <ClInclude Include="Game\Weapon\Sword\Header\SwordIdling.h" />
+    <ClInclude Include="Game\Weapon\Sword\Header\SwordAttacking1.h" />
+    <ClInclude Include="Game\Sound\Sound.h" />
+    <ClInclude Include="Game\Weapon\Cudgel\Cudgel.h" />
+    <ClInclude Include="Game\Weapon\Cudgel\Header\CudgelIdling.h" />
+    <ClInclude Include="Game\Weapon\Cudgel\Header\CudgelAttacking.h" />
+    <ClInclude Include="Game\Boss\States\Header\BossAttacking.h" />
+    <ClInclude Include="Game\Stage\Floor\Floor.h" />
+    <ClInclude Include="Game\Stage\Wall\Wall.h" />
+    <ClInclude Include="Libraries\MyLib\Collision.h" />
+    <ClInclude Include="Interface\IParticle.h" />
+    <ClInclude Include="Interface\IUserInterface.h" />
+    <ClInclude Include="Game\UI\!PlaySceneUIManager\PlaySceneUIManager.h" />
+    <ClInclude Include="Effects\Source\SwordTrialParticle.h" />
+    <ClInclude Include="Game\Boss\States\Header\BossSweeping.h" />
+    <ClInclude Include="Libraries\MyLib\EasingFunctions.h" />
+    <ClInclude Include="Game\Weapon\Cudgel\Header\CudgelSweeping.h" />
+    <ClInclude Include="Game\UI\PlayerHP\PlayerHPUI.h" />
+    <ClInclude Include="Game\UI\EnemyHP\EnemyHPUI.h" />
+    <ClInclude Include="Libraries\MyLib\Collision\CollisionManager.h" />
+    <ClInclude Include="Interface\IObject.h" />
+    <ClInclude Include="Interface\IHitPoint.h" />
+    <ClInclude Include="Game\UI\Fade\Fade.h" />
+    <ClInclude Include="Game\Factory\Factory.h" />
+    <ClInclude Include="Game\Messenger\KeyboardMessenger.h" />
+    <ClInclude Include="Interface\IObserver.h" />
+    <ClInclude Include="Interface\IPlayer.h" />
+    <ClInclude Include="Effects\Header\SwordTrailParticle.h" />
+    <ClInclude Include="Game\Weapon\Sword\Header\SwordAttacking2.h" />
+    <ClInclude Include="Interface\ICameraState.h" />
+    <ClInclude Include="Game\UI\PlayerWarning\PlayerWarning.h" />
+    <ClInclude Include="Libraries\MyLib\CustomShader\CustomShader.h" />
+    <ClInclude Include="Game\Goblin\Goblin.h" />
+    <ClInclude Include="Game\Goblin\State\Header\GoblinIdling.h" />
+    <ClInclude Include="Game\Goblin\State\Header\GoblinAttacking.h" />
+    <ClInclude Include="Game\Camera\State\TitleCameraState.h" />
+    <ClInclude Include="Game\Camera\State\PlayCameraState.h" />
+    <ClInclude Include="Game\TitleObject\EnemyTitleMoving.h" />
+    <ClInclude Include="Game\TitleObject\TitleEnemy.h" />
+    <ClInclude Include="Game\TitleObject\EnemyTitleIdling.h" />
+    <ClInclude Include="Interface\IResultScene.h" />
+    <ClInclude Include="Game\Data\GameData.h" />
+    <ClInclude Include="Libraries\MyLib\Texture.h" />
+    <ClInclude Include="Game\UI\Operation\Operation.h" />
+    <ClInclude Include="Game\UI\Operation\OperateUI.h" />
+    <ClInclude Include="Game\UI\UI.h" />
+    <ClInclude Include="Interface\IFace.h" />
+    <ClInclude Include="Game\Boss\Face\Header\BossFaceIdling.h" />
+    <ClInclude Include="Game\Boss\Face\Header\BossFaceAttacking.h" />
+    <ClInclude Include="Game\Data\HPSystem.h" />
+    <ClInclude Include="Game\Stage\Sea\Sea.h" />
+    <ClInclude Include="Game\HitStop\HitStop.h" />
+    <ClInclude Include="Game\Boss\States\Header\BossDashAttacking.h" />
+    <ClInclude Include="Game\Player\State\Header\PlayerNockBacking.h" />
+    <ClInclude Include="Libraries\MyLib\KeyboardChacker.h" />
+    <ClInclude Include="Game\EnemyManager\EnemyManager.h" />
+    <ClInclude Include="Game\Boss\States\Header\BossStarting.h" />
+    <ClInclude Include="Game\Quest\QuestManager.h" />
+    <ClInclude Include="Interface\IQuestChecker.h" />
+    <ClInclude Include="Game\Quest\QuestList\QuestPlayerMove.h" />
+    <ClInclude Include="Game\Quest\QuestList\QuestPlayerAttack.h" />
+    <ClInclude Include="Game\Quest\QuestList\QuestPlayerCombo.h" />
+    <ClInclude Include="Game\Quest\QuestList\QuestPlayerAvoid.h" />
+    <ClInclude Include="Game\Quest\QuestRenderer\QuestRenderer.h" />
+    <ClInclude Include="Game\Quest\Tutorial\Tutorial.h" />
+    <ClInclude Include="Game\Quest\TutorialList\TutorialStart.h" />
+    <ClInclude Include="Game\Quest\TutorialList\TutorialEnd.h" />
+    <ClInclude Include="Game\UI\UIAnchor.h" />
+    <ClInclude Include="Game\Goblin\State\Header\GoblinDead.h" />
+    <ClInclude Include="Game\Boss\States\Header\BossDead.h" />
+    <ClInclude Include="Game\Scene\TitleScene.h" />
+    <ClInclude Include="Game\Quest\QuestList\TutorialClear.h" />
+    <ClInclude Include="Game\Goblin\State\Header\GoblinTutorial.h" />
+    <ClInclude Include="Game\Quest\TutorialList\TutorialAttackStart.h" />
+    <ClInclude Include="Game\Quest\TutorialList\TutorialDodgStart.h" />
+    <ClInclude Include="Game\GameResources.h" />
+    <ClInclude Include="Game\Messenger\EventMessenger.h" />
+    <ClInclude Include="Game\UI\Action\NormalAction.h" />
+    <ClInclude Include="Interface\IAction.h" />
+    <ClInclude Include="Game\UI\SceneUIManager\QuestSelectSceneUIManager.h" />
+    <ClInclude Include="Game\UI\UserInterface.h" />
+    <ClInclude Include="Game\UI\Action\TitleLogoAction.h" />
+    <ClInclude Include="Game\UI\Action\TutorialButtonAction.h" />
+    <ClInclude Include="Game\UI\Action\BossFightButtonAction.h" />
+    <ClInclude Include="Effects\EnemyEffect\EnemyEffect.h" />
+    <ClInclude Include="Game\Weapon\WeaponState.h" />
+    <ClInclude Include="Game\Messenger\EventList.h" />
+    <ClInclude Include="Game\Camera\State\ClearCameraState.h" />
+    <ClInclude Include="Game\Scene\ResultScene.h" />
+    <ClInclude Include="Libraries\MyLib\InputManager.h" />
+    <ClInclude Include="Game\UI\Action\GoTitleButtonAction.h" />
+    <ClInclude Include="Game\UI\Action\EndGameButtonAction.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\CommonResources.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLib\DebugDraw.cpp">
+      <Filter>Libraries\Microsoft</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\MyLib\DebugString.cpp">
+      <Filter>Libraries\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\PlayScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Scene\SceneManager.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Camera\Camera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Boss\Boss.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\Source\PlayerIdling.cpp">
+      <Filter>Game\Player\State\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\State\Source\PlayerDodging.cpp">
+      <Filter>Game\Player\State\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Stage\SkySphere\SkySphere.cpp">
+      <Filter>Libraries\MyLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects\Source\DustTrailParticle.cpp" />
+    <ClCompile Include="Effects\Particle.cpp" />
+    <ClCompile Include="Libraries\MyLib\BinaryFile.cpp" />
+    <ClCompile Include="Game\Player\State\Source\PlayerAttacking1.cpp" />
+    <ClCompile Include="Game\Boss\States\Source\BossIdling.cpp" />
+    <ClCompile Include="Game\Boss\States\Source\BossApproaching.cpp" />
+    <ClCompile Include="Game\Player\State\Source\PlayerAttacking2.cpp" />
+    <ClCompile Include="Game\Weapon\Sword\Sword.cpp" />
+    <ClCompile Include="Game\Weapon\Sword\Source\SwordIdling.cpp" />
+    <ClCompile Include="Game\Weapon\Sword\Source\SwordAttacking1.cpp" />
+    <ClCompile Include="Game\Sound\Sound.cpp" />
+    <ClCompile Include="Game\Weapon\Cudgel\Source\CudgelIdling.cpp" />
+    <ClCompile Include="Game\Weapon\Cudgel\Cudgel.cpp" />
+    <ClCompile Include="Game\Weapon\Cudgel\Source\CudgelAttacking.cpp" />
+    <ClCompile Include="Game\Boss\States\Source\BossAttacking.cpp" />
+    <ClCompile Include="Game\Stage\Floor\Floor.cpp" />
+    <ClCompile Include="Game\Stage\Wall\Wall.cpp" />
+    <ClCompile Include="Game\UI\!PlaySceneUIManager\PlaySceneUIManager.cpp" />
+    <ClCompile Include="Effects\Source\SwordTrailParticle.cpp" />
+    <ClCompile Include="Game\Boss\States\Source\BossSweeping.cpp" />
+    <ClCompile Include="Game\Weapon\Cudgel\Source\CudgelSweeping.cpp" />
+    <ClCompile Include="Game\UI\PlayerHP\PlayerHPUI.cpp" />
+    <ClCompile Include="Game\UI\EnemyHP\EnemyHPUI.cpp" />
+    <ClCompile Include="Libraries\MyLib\Collision\CollisionManager.cpp" />
+    <ClCompile Include="Game\UI\Fade\Fade.cpp" />
+    <ClCompile Include="Game\Factory\Factory.cpp" />
+    <ClCompile Include="Game\Messenger\KeyboardMessenger.cpp" />
+    <ClCompile Include="Game\Weapon\Sword\Source\SwordAttacking2.cpp" />
+    <ClCompile Include="Game\UI\PlayerWarning\PlayerWarning.cpp" />
+    <ClCompile Include="Libraries\MyLib\CustomShader\CustomShader.cpp" />
+    <ClCompile Include="Game\Goblin\Goblin.cpp" />
+    <ClCompile Include="Game\Goblin\State\Score\GoblinAttacking.cpp" />
+    <ClCompile Include="Game\Goblin\State\Score\GoblinIdling.cpp" />
+    <ClCompile Include="Game\Camera\State\TitleCameraState.cpp" />
+    <ClCompile Include="Game\Camera\State\PlayCameraState.cpp" />
+    <ClCompile Include="Game\TitleObject\EnemyTitleMoving.cpp" />
+    <ClCompile Include="Game\TitleObject\TitleEnemy.cpp" />
+    <ClCompile Include="Game\TitleObject\EnemyTitleIdling.cpp" />
+    <ClCompile Include="Game\Data\GameData.cpp" />
+    <ClCompile Include="Libraries\MyLib\Texture.cpp" />
+    <ClCompile Include="Game\UI\Operation\Operation.cpp" />
+    <ClCompile Include="Game\UI\Operation\OperateUI.cpp" />
+    <ClCompile Include="Game\UI\UI.cpp" />
+    <ClCompile Include="Game\Boss\Face\Source\BossFaceIdling.cpp" />
+    <ClCompile Include="Game\Boss\Face\Source\BossFaceAttacking.cpp" />
+    <ClCompile Include="Game\Data\HPSystem.cpp" />
+    <ClCompile Include="Game\Stage\Sea\Sea.cpp" />
+    <ClCompile Include="Game\HitStop\HitStop.cpp" />
+    <ClCompile Include="Game\Boss\States\Source\BossDashAttacking.cpp" />
+    <ClCompile Include="Game\Player\State\Source\PlayerNockBacking.cpp" />
+    <ClCompile Include="Game\EnemyManager\EnemyManager.cpp" />
+    <ClCompile Include="Interface\IEnemy.h" />
+    <ClCompile Include="Game\Boss\States\Source\BossStarting.cpp" />
+    <ClCompile Include="Game\Quest\QuestManager.cpp" />
+    <ClCompile Include="Game\Quest\QuestRenderer\QuestRenderer.cpp" />
+    <ClCompile Include="Game\Quest\Tutorial\Tutorial.cpp" />
+    <ClCompile Include="Game\Goblin\State\Score\GoblinDead.cpp" />
+    <ClCompile Include="Game\Boss\States\Source\BossDead.cpp" />
+    <ClCompile Include="Game\Scene\TitleScene.cpp" />
+    <ClCompile Include="Game\Goblin\State\Score\GoblinTutorial.cpp" />
+    <ClCompile Include="Game\GameResources.cpp" />
+    <ClCompile Include="Game\Messenger\EventMessenger.cpp" />
+    <ClCompile Include="Game\UI\SceneUIManager\QuestSelectSceneUIManager.cpp" />
+    <ClCompile Include="Game\UI\UserInterface.cpp" />
+    <ClCompile Include="Effects\EnemyEffect\EnemyEffect.cpp" />
+    <ClCompile Include="Game\Camera\State\ClearCameraState.cpp" />
+    <ClCompile Include="Game\Quest\QuestList\QuestChangeTarget.h" />
+    <ClCompile Include="Game\Scene\ResultScene.cpp" />
+    <ClCompile Include="Libraries\MyLib\InputManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="fmod.dll" />
+    <None Include="fmodL.dll" />
+    <None Include="Resources\Shaders\ParticleGS.cso" />
+    <None Include="Resources\Shaders\ParticlePS.cso" />
+    <None Include="Resources\Shaders\ParticleVS.cso" />
+    <None Include="Resources\hlsl\Particle.hlsli" />
+    <None Include="Resources\hlsl\UI\UI.hlsli" />
+    <None Include="Resources\hlsl\DamageEffect\Common.hlsli" />
+    <None Include="Resources\hlsl\Mask\Particle.hlsli" />
+    <None Include="Resources\hlsl\Quest\Quest.hlsli" />
+    <None Include="Resources\hlsl\DeadEffect\Common.hlsli" />
+    <None Include="Resources\hlsl\Tutorial\Tutorial.hlsli" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\hlsl\Sword\SwordTrailPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Sword\SwordTrailVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Dust\DustPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Dust\DustVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Dust\DustGS.hlsl" />
+    <FxCompile Include="Resources\hlsl\UI\UIGS.hlsl" />
+    <FxCompile Include="Resources\hlsl\UI\UIPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\UI\UIVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Fade\FadeGS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Fade\FadePS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Fade\FadeVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Warning\WarningGS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Warning\WarningPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Warning\WarningVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Operation\OperationGS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Operation\OperationVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Operation\OperationPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Voronoi\VoronoiGS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Voronoi\VoronoiPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Voronoi\VoronoiVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Mask\MaskGS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Mask\MaskPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Mask\MaskVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\DamageEffect\DamageEffectPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Quest\Quest_VS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Quest\Quest_PS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Quest\Quest_GS.hlsl" />
+    <FxCompile Include="Resources\hlsl\DamageEffect\DamageEffectVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\DeadEffect\DeadEffectPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\DeadEffect\DeadEffectVS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Tutorial\TutorialGS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Tutorial\TutorialPS.hlsl" />
+    <FxCompile Include="Resources\hlsl\Tutorial\TutorialVS.hlsl" />
+  </ItemGroup>
+</Project>
